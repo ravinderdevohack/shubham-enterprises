@@ -26,8 +26,8 @@ export default function Footer() {
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/about" className={({isActive}) => `${isActive ? "text-orange-700":"text-gray-500"} hover:underline`}>
-                      About
+                  <NavLink to="/contact" className={({isActive}) => `${isActive ? "text-orange-700":"text-gray-500"} hover:underline`}>
+                      Contact
                   </NavLink>
                 </li>
               </ul>
