@@ -7,8 +7,8 @@ import { Link, NavLink } from 'react-router-dom'
 export default function Header() {
   return (
     <header className='shadow sticky top-0 '>
-      <nav className='bg-white border-gray-200 px-4 lg:px-6 py-2.5'>
-        <div className='flex flex-wrap justify-between items-center mx-auto max-w-7xl'>
+      <nav className='bg-white z-1 border-gray-200 px-4 lg:px-6 py-2.5'>
+        <div className='flex z-2 flex-wrap justify-between items-center mx-auto max-w-7xl'>
 
           <Link to="/" className='flex items-center'>
             <img

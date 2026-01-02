@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import Contact from '../Contact/Contact'
+import About from '../About/About';
 
 export default function Home() {
     return (
@@ -20,7 +22,7 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full pl-2 ">
+                <div className="absolute  z-0 inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full pl-2 ">
                     <img className="w-96 rounded-lg" src="https://images.pexels.com/photos/34484706/pexels-photo-34484706.jpeg" alt="image1" />
                 </div>
             </aside>
@@ -31,7 +33,9 @@ export default function Home() {
             </div>
            
 
-            <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">Shubham Enterprises</h1>
+            <h1 className="text-center text-orange-800  text-2xl sm:text-5xl py-10 font-bold">Shubham Enterprises</h1>
+            <About />
+            <Contact />
         </div>
     );
 }
