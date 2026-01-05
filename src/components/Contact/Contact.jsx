@@ -69,7 +69,7 @@ export default function Contact() {
                   />
                 </svg>
                 <div className="ml-4  tracking-wide font-semibold w-40">
-                    +44 1234567890
+                    +91 8826049901, +91 9350211557, +91 7011766929, +91 9625268400
                 </div>
             </div>
 
@@ -92,7 +92,7 @@ export default function Contact() {
                     />
                 </svg>
                 <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                    info@acme.org
+                    shubhameneterprises731@gmail.com
                 </div>
             </div>
           </div>
