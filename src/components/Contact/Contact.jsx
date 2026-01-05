@@ -69,7 +69,8 @@ export default function Contact() {
                   />
                 </svg>
                 <div className="ml-4  tracking-wide font-semibold w-40">
-                    +91 8826049901, +91 9350211557, +91 7011766929, +91 9625268400
+                   <span>+91 8826049901, 9350211557 
+                    7011766929, 9625268400</span> 
                 </div>
             </div>
 
